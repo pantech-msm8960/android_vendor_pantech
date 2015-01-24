@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DEVICE_FOLDER)/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libchromatix_vx6953_default_video.so:system/lib/libchromatix_vx6953_default_video.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libchromatix_vx6953_preview.so:system/lib/libchromatix_vx6953_preview.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libgemini.so:system/lib/libgemini.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
@@ -99,30 +98,9 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DEVICE_FOLDER)/lib/libcneutils.so:system/lib/libcneutils.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libxml.so:system/lib/libxml.so
 
-# EGL
-PRODUCT_COPY_FILES += \
-    $(VENDOR_DEVICE_FOLDER)/lib/libC2D2.so:system/lib/libC2D2.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libgsl.so:system/lib/libgsl.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
-
 # Firmware
 PRODUCT_COPY_FILES += \
-    $(VENDOR_DEVICE_FOLDER)/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    $(VENDOR_DEVICE_FOLDER)/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    $(VENDOR_DEVICE_FOLDER)/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    $(VENDOR_DEVICE_FOLDER)/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    $(VENDOR_DEVICE_FOLDER)/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     $(VENDOR_DEVICE_FOLDER)/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
-    $(VENDOR_DEVICE_FOLDER)/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    $(VENDOR_DEVICE_FOLDER)/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     $(VENDOR_DEVICE_FOLDER)/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     $(VENDOR_DEVICE_FOLDER)/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     $(VENDOR_DEVICE_FOLDER)/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -140,12 +118,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DEVICE_FOLDER)/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libloc_eng.so:system/lib/libloc_eng.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libloc_ext.so:system/lib/libloc_ext.so \
-
-# Media libraries
-PRODUCT_COPY_FILES += \
-    $(VENDOR_DEVICE_FOLDER)/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libmmosal.so:system/lib/libmmosal.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libmmparser.so:system/lib/libmmparser.so 
 
 # Pantech_server libs
 PRODUCT_COPY_FILES += \
@@ -175,7 +147,6 @@ PRODUCT_COPY_FILES += \
 # Radio
 PRODUCT_COPY_FILES += \
     $(VENDOR_DEVICE_FOLDER)/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/libqc-opt.so:system/lib/libqc-opt.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libril.so:system/lib/libril.so 
